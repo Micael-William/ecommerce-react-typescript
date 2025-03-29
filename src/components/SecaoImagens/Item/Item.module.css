@@ -1,0 +1,11 @@
+.img {
+    width: 58px;
+    height: 58px;
+    object-fit: fill;
+}
+
+.legenda {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

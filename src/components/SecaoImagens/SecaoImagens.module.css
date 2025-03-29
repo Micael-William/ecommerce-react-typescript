@@ -1,0 +1,19 @@
+.secaoItem{
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.secaoItem > ul {
+    display: flex;
+    padding: 7px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    height: 110px;
+    margin-top: 7px;
+}
+
+ul > li {
+    list-style-type: none;
+    margin: 0 10px;
+}

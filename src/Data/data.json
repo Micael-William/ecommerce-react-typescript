@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nome": "Samsung Galaxy",
+        "descricao": "Samsung Galaxy S21 Ultra",
+        "quantidade": 40,
+        "preco": 2300.00,
+        "imagem": "/assets/img/1616492395_Samsung-Galaxy-S21-Ultra-1608287647-0-0.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "OnePlus",
+        "descricao": "OnePlus 8T-5G Lunar Silver",
+        "quantidade": 30,
+        "preco": 2100.00,
+        "imagem": "/assets/img/1616500410_OnePlus-8T-5G-Lunar-Silver-8GB-RAM-128GB-Storage-image-4.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "sm zfold",
+        "descricao": "Poderoso e moderno",
+        "quantidade": 15,
+        "preco": 1900.00,
+        "imagem": "/assets/img/1616500092_sm-zfold.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "iph12pm",
+        "descricao": "Moderno e elegante",
+        "quantidade": 20,
+        "preco": 1500.00,
+        "imagem": "/assets/img/1616502847_hdphn.jpg"
+    },
+    {
+        "id": 5,
+        "nome": "Head set",
+        "descricao": "Fones de ouvido",
+        "quantidade": 50,
+        "preco": 150.00,
+        "imagem": "/assets/img/1616502854_hdphn.jpg"
+    },
+    {
+        "id": 6,
+        "nome":"menshoodie",
+        "descricao": "Casaco masculino",
+        "quantidade": 10,
+        "preco": 210.00,
+        "imagem": "/assets/img/1616504885_menshoodie.jpg"
+    },
+    {
+        "id": 7,
+        "nome":"menshoodie",
+        "descricao": "Casaco masculino",
+        "quantidade": 200,
+        "preco": 210.00, 
+        "imagem": "/assets/img/1616504885_menshoodie.jpg"
+    }
+]

@@ -35,4 +35,6 @@ const Formulario = ({action = "", method}: iAtributos) => {
     )
 }
 
+
+
 export default Formulario;

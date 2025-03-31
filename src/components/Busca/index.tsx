@@ -1,14 +1,12 @@
 import React from "react";
 import style from "./Busca.module.css";
+import Formulario from "../Formulario";
 
-interface iForm {
-    children: React.ReactNode
-}
 
-const Busca = ({children}: iForm) => {
+const Busca = () => {
     return (
         <section className={style.secaoBusca}>
-            {children}
+           <Formulario method='POST' />
         </section>
     )
 }

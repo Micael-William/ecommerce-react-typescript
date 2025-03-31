@@ -1,12 +1,17 @@
 import React from "react";
 import style from "./Menu.module.css";
 import img from "./icone.svg";
+import Imagens from "../SecaoImagens";
+import Busca from "../Busca";
 
 const Menu = () => {
+    function abrirMenuMobile(){
+        alert('clicou')
+    }
     return (
         <>
             <header className={style.containerCabecalho}>
-                <img className={style.img} src={img} alt="" />
+                <img className={style.img} src={img} alt="" onClick={abrirMenuMobile}/>
                 <a className={style.titulo}>Ecommerce</a>
                 <div className={style.atributos}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-person-fill" viewBox="0 0 16 16">
@@ -20,6 +25,9 @@ const Menu = () => {
                     </svg>
                 </div>
             </header>
+
+            <Busca />
+            <Imagens />
         </>
     );
 }

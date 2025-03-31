@@ -1,18 +1,14 @@
 import React from 'react';
 import Menu from './components/Menu';
 import Busca from './components/Busca';
+import Main from './components/Main';
 import './index.css';
-import Formulario from './components/Formulario';
-import Imagens from './components/SecaoImagens';
+import AppRouter from './routes';
 
 function App() {
   return (
     <div className="App">
-      <Menu />
-      <Busca>
-        <Formulario method='POST' />
-      </Busca>
-      <Imagens />
+     <AppRouter />
     </div>
   );
 }

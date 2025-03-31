@@ -1,12 +1,11 @@
 import React from "react";
 import style from "./Item.module.css";
-
-interface iItem {
+interface iProduto {
     nome: string,
     imagem: string
 }
 
-const Item = ({nome, imagem}: iItem) => {
+const Item = ({nome, imagem}: iProduto) => {
     return (
         <li>
             <img className={style.img} src={imagem} alt={nome && ""} />

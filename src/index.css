@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  scroll-behavior: smooth;
-    background-color: rgb(241, 241, 241);
-}
 
 html {
   overflow-x: hidden;

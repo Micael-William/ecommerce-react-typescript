@@ -9,3 +9,8 @@
     font-weight: bold;
     font-family: sans-serif;
 }
+
+button {
+    border: none;
+    background: transparent;
+}

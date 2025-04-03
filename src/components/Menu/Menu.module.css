@@ -32,3 +32,43 @@
     height: 23px;
     width: 23px;
 }
+
+.aberto {
+    position: fixed; 
+    display: flex;
+    flex-direction: column;
+    left: 0; 
+    top: 0;
+    width: 50vw; 
+    height: 100vh; 
+    background-color: #000;
+    opacity: 1;
+    overflow-y: auto; 
+    z-index: 999; 
+    transition: left 0.3s ease-in-out; 
+
+}
+
+.fechado {
+    position: fixed;
+    background-color: #000;
+    right: -100%; 
+    top: 0;
+    width: 100vw;
+    height: 100vh; 
+    transition: left 0.3s ease-in-out; 
+}
+
+.close {
+    color: #fff;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+}
+
+
+.botao {
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: flex-end;
+}

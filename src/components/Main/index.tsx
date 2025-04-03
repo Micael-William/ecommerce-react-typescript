@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import style from "./Main.module.css";
-import Footer from "../Footer";
 import dados from "../../Data/data.json";
 import Item from "./Item";
 import im1 from "../../assets/img/1616492395_Samsung-Galaxy-S21-Ultra-1608287647-0-0.jpg";
@@ -19,13 +18,14 @@ const Main = () => {
     return (
         <>
             <main>
-                <section className={style.secaoTitulo}>
-                    <h1>Produtos novos e <br />lançamentos</h1>
-                    <br />
-                    <p>1.500 produtos encontrados</p>
-                </section>
-               
                 <div className={style.principal}>
+                    
+                    <section className={style.secaoTitulo}>
+                        <h1>Produtos novos e <br />lançamentos</h1>
+                        <br />
+                        <p>1.500 produtos encontrados</p>
+                    </section>
+               
                     {
                         produtos.map((produto, index) => (
                             <Item key={produto.id}
